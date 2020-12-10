@@ -133,5 +133,20 @@ public class Main {
 //        } else {
 //            System.out.println("Nie jest to ciąg arytmetyczny");
 //        }
+        //Exercise 9 &10
+        int var1 = 11;
+        int var2 = 5;
+        double divide = ((double) var1 / (double) var2);
+        System.out.printf("%.3f", divide);
+        int temp = (int) divide;
+        System.out.println("\n" + temp);
+        int modulo = var1 - (temp * var2);
+        System.out.println(modulo);
+
+        if (modulo == (var1%var2)){
+            System.out.println("Wszystko jest ok");
+        } else{
+            System.out.println("Błędnie działająca funkcja");
+        }
     }
 }
