@@ -58,5 +58,16 @@ public class Main {
 //            }
 //        }
 //        System.out.println(suma);
-//    }
+//
+//        //Exercise 4
+//        int[] zadanatablica = new int[]{12, 7, 19};
+//        int temp = zadanatablica[0];
+//        zadanatablica[0] = zadanatablica[2];
+//        zadanatablica[2] = temp;
+//        for (int x: zadanatablica) {
+//            System.out.println(x);
+
+        
+        }
+    }
 }
