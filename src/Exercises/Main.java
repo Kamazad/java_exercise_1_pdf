@@ -102,6 +102,22 @@ public class Main {
 //            System.out.println(x);
 //        }
 
-
+//Exercise 7
+//        int length = 3;
+//        int first =4;
+//        int differnce = 100;
+//        int[] tablica = new int [length];
+//        for (int i = 0; i<length; i++){
+//            if (i==0) {
+//                tablica[i] = first;
+//            } else {
+//                tablica[i] = tablica[i-1] + differnce;
+//            }
+//        }
+//        for (int x : tablica){
+//            System.out.println(x);
+//        }
+        //Exercise 8
+        
     }
 }
