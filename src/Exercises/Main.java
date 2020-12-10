@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import static Exercises.Input.staticScanner;
 
+
 public class Main {
     public static void main(String[] args) {
 //
@@ -80,5 +81,27 @@ public class Main {
 //            }
 //        }
 //        System.out.println(min + " " + max);
+        //Exercise6
+//        int[] zadanatablica = new int[]{12, 7, 19, 213, -90, 23, -4534, -34424};
+//        int howmany = 0;
+//        for (int x : zadanatablica) {
+//            if (x<0){
+//                howmany++;
+//            }
+//        }
+//        System.out.println("Jest :"+howmany +" liczb ujemnych, oto one :");
+//        int[] ujemne = new int[howmany];
+//        int i = 0;
+//        for (int x : zadanatablica) {
+//            if (x<0){
+//                ujemne[i] = x;
+//                i++;
+//            }
+//        }
+//        for(int x : ujemne){
+//            System.out.println(x);
+//        }
+
+
     }
 }
