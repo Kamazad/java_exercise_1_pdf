@@ -26,24 +26,37 @@ public class Main {
 //        int y = staticScanner();
 //        System.out.println("Nasze y to : " + y);
 
-        //Exercise 2
-        int var1 =1231;
-        double sqrtroot = Math.sqrt((double) var1);
-        boolean isPrime = true;
-        sqrtroot = Math.floor(sqrtroot);
-        if(var1<=2){
-            isPrime = false;
-        }
-        for (int i=2; i<=sqrtroot; i++){
-            if(var1%i==0){
-                isPrime = false;
-            }
-        }
-        if (isPrime){
-            System.out.println("Podana liczba jest liczbą pierwszą");
-        } else {
-            System.out.println("Podana liczba jest nie liczbą pierwszą");
-        }
-
-    }
+//        //Exercise 2
+//        int var1 =1231;
+//        double sqrtroot = Math.sqrt((double) var1);
+//        boolean isPrime = true;
+//        sqrtroot = Math.floor(sqrtroot);
+//        if(var1<=2){
+//            isPrime = false;
+//        }
+//        for (int i=2; i<=sqrtroot; i++){
+//            if(var1%i==0){
+//                isPrime = false;
+//            }
+//        }
+//        if (isPrime){
+//            System.out.println("Podana liczba jest liczbą pierwszą");
+//        } else {
+//            System.out.println("Podana liczba jest nie liczbą pierwszą");
+//        }
+//   Exercise 3
+//        int var1 = 8;
+//        int var2 = 6;
+//        Integer suma = var1;
+//        if (var2 != var1) {
+//            int difference = Math.abs((var1 - var2));
+//            if (var2 < var1) {
+//                var1 = var2;
+//            }
+//            for (int i = (var1 + 1); i <= (var1 + difference); i++) {
+//                suma += i;
+//            }
+//        }
+//        System.out.println(suma);
+//    }
 }
