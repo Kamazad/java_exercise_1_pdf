@@ -67,7 +67,18 @@ public class Main {
 //        for (int x: zadanatablica) {
 //            System.out.println(x);
 
-        
-        }
+        // Exercise 5
+//        int[] zadanatablica = new int[]{12, 7, 19, 213,-90,23};
+//        int min = zadanatablica[0];
+//        int max = zadanatablica[0];
+//        for(int i=1; i<zadanatablica.length; i++){
+//            if (min>zadanatablica[i]){
+//                min = zadanatablica[i];
+//            }
+//            if(max<zadanatablica[i]){
+//                max = zadanatablica[i];
+//            }
+//        }
+//        System.out.println(min + " " + max);
     }
 }
