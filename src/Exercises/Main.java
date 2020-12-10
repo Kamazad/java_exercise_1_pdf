@@ -118,6 +118,20 @@ public class Main {
 //            System.out.println(x);
 //        }
         //Exercise 8
-        
+//        int[] test = {-1,2,5,8,11};
+//        boolean isArithethic = true;
+//        int diff1 = test[0] - test[1];
+//        int diff2;
+//        for (int i=2; i<test.length; i++ ){
+//            diff2 = test[i-1] - test[i];
+//            if ((diff1 != diff2)){
+//                isArithethic = false;
+//            }
+//        }
+//        if(isArithethic){
+//            System.out.println("Jest to ciąg arytmetyczny");
+//        } else {
+//            System.out.println("Nie jest to ciąg arytmetyczny");
+//        }
     }
 }
